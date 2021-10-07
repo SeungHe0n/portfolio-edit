@@ -15,7 +15,8 @@ body {
     background-color: white;
 }
 
-img {
+img,
+button {
     user-select: none;
 }
 
@@ -28,6 +29,7 @@ header {
 header p {
     font-weight: bold;
     font-size: 1.1rem;
+    user-select: none;
 }
 
 .icon {
@@ -79,11 +81,18 @@ main > div {
 .all button {
     padding: 5px 10px;
     font-size: 1rem;
-    border-color: #3498db;
     border: 3px solid;
     border-radius: 1rem;
+}
+.basicBtn {
+    border-color: #3498db;
     color: #3498db;
     background-color: white;
+}
+.clickedBtn {
+    border-color: #3498db;
+    color: white;
+    background-color: #3498db;
 }
 
 .titles {
