@@ -97,13 +97,13 @@ main > div {
     background-color: #3498db;
 }
 
-.titles {
+.events {
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.titles > p {
+.titles {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
